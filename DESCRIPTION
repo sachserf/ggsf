@@ -1,9 +1,11 @@
 Package: ggsf
-Title: What the Package Does (one line, title case)
+Title: ggsf
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Frederik", "Sachser", email = "frederik.sachser@boku.ac.at", role = c("aut", "cre"))
+Description: Some customizations for ggplot2.
 Depends: R (>= 3.4.1)
-License: What license is it under?
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1.9000
+Imports: ggplot2
