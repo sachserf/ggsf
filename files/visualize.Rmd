@@ -1,0 +1,23 @@
+---
+title: 'visualize'
+author: 'sachserf'
+date: '`r Sys.Date()`'
+output:
+ html_document:
+   theme: journal
+   highlight: tango
+   df_print: kable
+   fig_caption: yes
+   number_sections: yes
+   collapsed: yes
+   code_folding: hide
+   toc: yes
+   toc_float: yes
+   toc_depth: 5
+   keep_md: yes
+---
+
+```{r setup_visualize, include=FALSE}
+source('files/visualize_knitr_setup.R')
+```
+
