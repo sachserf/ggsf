@@ -4,7 +4,7 @@
 \alias{theme_sf}
 \title{My custom theme}
 \usage{
-theme_sf(base_size = 12, base_family = "Arial", x_angle = 45,
+theme_sf(base_size = 12, base_family = "Helvetica", x_angle = 45,
   strip_bg_blank = FALSE, legend_bg_blank = TRUE)
 }
 \arguments{

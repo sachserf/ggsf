@@ -7,7 +7,7 @@
 #' @param legend_bg_blank Logical. Should background of legend should be grey or blank?
 #'
 #' @export
-theme_sf <- function(base_size=12, base_family="Arial", x_angle = 45, strip_bg_blank = FALSE, legend_bg_blank = TRUE) {
+theme_sf <- function(base_size=12, base_family="Helvetica", x_angle = 45, strip_bg_blank = FALSE, legend_bg_blank = TRUE) {
   ggplot2::theme_bw(base_size = base_size, base_family = base_family) + # %+replace%
     ggplot2::theme(
       # text
